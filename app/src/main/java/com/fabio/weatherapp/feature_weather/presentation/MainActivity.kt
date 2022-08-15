@@ -1,4 +1,4 @@
-package com.plcoding.weatherapp.presentation
+package com.fabio.weatherapp.feature_weather.presentation
 
 import android.Manifest
 import android.os.Bundle
@@ -16,9 +16,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import com.fabio.weatherapp.feature_weather.presentation.WeatherCard
-import com.fabio.weatherapp.feature_weather.presentation.WeatherForecast
-import com.fabio.weatherapp.feature_weather.presentation.WeatherViewModel
 import com.plcoding.weatherapp.presentation.ui.theme.DarkBlue
 import com.plcoding.weatherapp.presentation.ui.theme.DeepBlue
 import com.plcoding.weatherapp.presentation.ui.theme.WeatherAppTheme
