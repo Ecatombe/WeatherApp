@@ -42,7 +42,7 @@ fun WeatherDataDto.toWeatherDataMap(): Map<Int, List<WeatherData>> {
     }
 }
 
-fun WeatherDto.toWeatherInfoObject(): WeatherInfo {
+fun WeatherDto.toWeatherInfo(): WeatherInfo {
     val weatherDataMap = weatherData.toWeatherDataMap()
     val now = LocalDateTime.now()
     val currentWeatherData = weatherDataMap[0]?.find {
