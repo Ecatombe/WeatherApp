@@ -1,4 +1,4 @@
-package com.fabio.weatherapp.domain.weather
+package com.fabio.weatherapp.feature_weather.domain.weather
 
 import androidx.annotation.DrawableRes
 import com.fabio.weatherapp.R
